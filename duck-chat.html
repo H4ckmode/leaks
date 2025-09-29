@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Duk Chat 🦆</title>
+  <style>
+    body {
+      background: #121212;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #eee;
+    }
+    .chat-container {
+      width: 80%;
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    .message {
+      display: flex;
+      align-items: flex-end;
+      margin: 15px 0;
+    }
+    .message.duck1 {
+      justify-content: flex-start;
+    }
+    .message.duck2 {
+      justify-content: flex-end;
+    }
+    .duck-img {
+      width: 65px;
+      height: 65px;
+      border-radius: 50%;
+      object-fit: cover;
+      background: #333;
+      padding: 3px;
+      margin: 0 10px;
+    }
+    .bubble {
+      max-width: 60%;
+      padding: 12px 18px;
+      border-radius: 18px;
+      font-size: 16px;
+      line-height: 1.4;
+      position: relative;
+      color: #f5f5f5;
+    }
+    .duck1 .bubble {
+      background: #3949ab;
+      border-bottom-left-radius: 0;
+    }
+    .duck2 .bubble {
+      background: #00897b;
+      border-bottom-right-radius: 0;
+    }
+    .header {
+      text-align: center;
+      padding: 20px;
+      font-size: 24px;
+      background: #1f1f1f;
+      color: #fff;
+      border-bottom: 4px solid #000;
+    }
+    .bubble {
+      animation: pop 0.5s ease;
+    }
+    @keyframes pop {
+      0% { transform: scale(0.7); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">🌙 Duk Secret Chat 🦆</div>
+  <div class="chat-container">
+
+    <div class="message duck1">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Duck_cartoon_01.svg" class="duck-img">
+      <div class="bubble">Quack! Have you heard about the hidden thing?</div>
+    </div>
+
+    <div class="message duck2">
+      <div class="bubble">Quaaack... yes, but nobody knows exactly where it is.</div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Duck_cartoon_04.svg" class="duck-img">
+    </div>
+
+    <div class="message duck1">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Duck_cartoon_01.svg" class="duck-img">
+      <div class="bubble">Some say it’s buried under the lake 🌊</div>
+    </div>
+
+    <div class="message duck2">
+      <div class="bubble">Others whisper it’s behind the old barn… 🏚️</div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Duck_cartoon_04.svg" class="duck-img">
+    </div>
+
+    <div class="message duck1">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Duck_cartoon_01.svg" class="duck-img">
+      <div class="bubble">But I found a clue… carved into a wooden log! 🪵</div>
+    </div>
+
+    <div class="message duck2">
+      <div class="bubble">Tell me! What did it say? 👀</div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Duck_cartoon_04.svg" class="duck-img">
+    </div>
+
+    <div class="message duck1">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Duck_cartoon_01.svg" class="duck-img">
+      <div class="bubble">“The hidden thing lies where shadows meet water.”</div>
+    </div>
+
+    <div class="message duck2">
+      <div class="bubble">Mysterious! Maybe it’s under the willow tree by the pond 🌿</div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Duck_cartoon_04.svg" class="duck-img">
+    </div>
+
+    <div class="message duck1">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Duck_cartoon_01.svg" class="duck-img">
+      <div class="bubble">Quack quack! That makes sense… shall we go tonight? 🌙</div>
+    </div>
+
+    <div class="message duck2">
+      <div class="bubble">Yes… but keep quiet. The hidden thing is not for every beak 🦆🤫</div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Duck_cartoon_04.svg" class="duck-img">
+    </div>
+
+    <div class="message duck1">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Duck_cartoon_01.svg" class="duck-img">
+      <div class="bubble">Alright… tonight we uncover the truth!</div>
+    </div>
+
+    <div class="message duck2">
+      <div class="bubble">And if we find it… we must promise to keep it safe 🔐</div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Duck_cartoon_04.svg" class="duck-img">
+    </div>
+
+  </div>
+</body>
+</html>
